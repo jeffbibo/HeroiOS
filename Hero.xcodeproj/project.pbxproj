@@ -36,6 +36,7 @@
 		C6BCD3BC18ED1EE100CDE20C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BCD3BB18ED1EE100CDE20C /* SystemConfiguration.framework */; };
 		C6BCD3BE18ED1EE700CDE20C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BCD3BD18ED1EE700CDE20C /* Social.framework */; };
 		C6BCD3C018ED1EED00CDE20C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BCD3BF18ED1EED00CDE20C /* Accounts.framework */; };
+		C6BCD3C318ED218200CDE20C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BCD3C218ED218200CDE20C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C6BCD3BB18ED1EE100CDE20C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C6BCD3BD18ED1EE700CDE20C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		C6BCD3BF18ED1EED00CDE20C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C6BCD3C218ED218200CDE20C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BCD3C318ED218200CDE20C /* MapKit.framework in Frameworks */,
 				C6BCD3C018ED1EED00CDE20C /* Accounts.framework in Frameworks */,
 				C6BCD3BE18ED1EE700CDE20C /* Social.framework in Frameworks */,
 				C6BCD3BC18ED1EE100CDE20C /* SystemConfiguration.framework in Frameworks */,
@@ -144,6 +147,7 @@
 		C6BCD36C18ED058900CDE20C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6BCD3C218ED218200CDE20C /* MapKit.framework */,
 				C6BCD3BF18ED1EED00CDE20C /* Accounts.framework */,
 				C6BCD3BD18ED1EE700CDE20C /* Social.framework */,
 				C6BCD3BB18ED1EE100CDE20C /* SystemConfiguration.framework */,

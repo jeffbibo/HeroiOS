@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <MapKit/MapKit.h>
 
-@interface ViewController ()
+@interface ViewController ()<MKMapViewDelegate>
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.mapView.showsUserLocation = YES;
+    MKUserLocation *userLocation = _mapView.userLocation;
+    MKCoordinateRegion region =
+    MKCoordinateRegionMakeWithDistance (
+                                        userLocation.location.coordinate, 20000, 20000);
+    [_mapView setRegion:region animated:NO];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
