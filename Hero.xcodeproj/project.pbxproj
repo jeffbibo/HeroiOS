@@ -22,6 +22,7 @@
 		C6BCD39218ED058900CDE20C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BCD37118ED058900CDE20C /* UIKit.framework */; };
 		C6BCD39A18ED058900CDE20C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6BCD39818ED058900CDE20C /* InfoPlist.strings */; };
 		C6BCD39C18ED058900CDE20C /* HeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BCD39B18ED058900CDE20C /* HeroTests.m */; };
+		C6BCD3A618ED068300CDE20C /* wQn3M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BCD3A518ED068300CDE20C /* wQn3M.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C6BCD39718ED058900CDE20C /* HeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeroTests-Info.plist"; sourceTree = "<group>"; };
 		C6BCD39918ED058900CDE20C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6BCD39B18ED058900CDE20C /* HeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTests.m; sourceTree = "<group>"; };
+		C6BCD3A518ED068300CDE20C /* wQn3M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wQn3M.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				C6BCD37C18ED058900CDE20C /* AppDelegate.h */,
 				C6BCD37D18ED058900CDE20C /* AppDelegate.m */,
+				C6BCD3A518ED068300CDE20C /* wQn3M.jpg */,
 				C6BCD37F18ED058900CDE20C /* Main_iPhone.storyboard */,
 				C6BCD38218ED058900CDE20C /* Main_iPad.storyboard */,
 				C6BCD38518ED058900CDE20C /* ViewController.h */,
@@ -234,6 +237,7 @@
 				C6BCD38418ED058900CDE20C /* Main_iPad.storyboard in Resources */,
 				C6BCD38918ED058900CDE20C /* Images.xcassets in Resources */,
 				C6BCD38118ED058900CDE20C /* Main_iPhone.storyboard in Resources */,
+				C6BCD3A618ED068300CDE20C /* wQn3M.jpg in Resources */,
 				C6BCD37818ED058900CDE20C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
